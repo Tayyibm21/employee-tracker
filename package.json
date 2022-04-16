@@ -1,26 +1,29 @@
 {
-  "dependencies": {
-    "express": "^4.17.2",
-    "inquirer": "^8.2.0",
-    "mysql": "^2.18.1",
-    "y": "^0.3.2"
-  },
   "name": "employee-tracker",
-  "description": "",
   "version": "1.0.0",
-  "main": "index.js",
+  "description": "employee tracker application",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tayyibm21/employee-tracker.git"
+    "url": "git+https://github.com/Tayyibm21/employee-tracker.git#dev"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Tayyib Mahmood",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Tayyibm21/employee-tracker/issues"
   },
-  "homepage": "https://github.com/Tayyibm21/employee-tracker#readme"
+  "homepage": "https://github.com/Tayyibm21/employee-tracker/tree/dev",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {},
+  "keywords": []
 }
